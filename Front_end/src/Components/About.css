@@ -1,0 +1,77 @@
+/* About.css */
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .book-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .book-card {
+    width: calc(33.33% - 20px); /* Adjust the card width for three cards in a row */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: hidden; /* To hide the overflow of taller book images */
+  }
+  
+  .book-card img {
+    width: 100%;
+   
+    object-fit: cover; /* To crop the image and maintain aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .book-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .book-info p {
+    margin: 5px 0;
+  }
+  
+  .caption {
+    font-style: italic;
+    color: #666;
+  }
+  
+  .book-info a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .book-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Mobile responsiveness */
+  @media screen and (max-width: 768px) {
+    .book-cards-container {
+      flex-direction: column;
+    }
+  
+    .book-card {
+      width: 100%; /* Adjust the card width for one card per row */
+    }
+  }
+  

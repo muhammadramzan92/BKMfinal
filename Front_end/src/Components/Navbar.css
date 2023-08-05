@@ -1,0 +1,80 @@
+/* Navbar CSS */
+nav {
+    background-color:d3dce6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-logo-container img {
+    height: 80px; /* Set the height of the circular logo */
+    /* width: 80px;  */
+    /* border-radius: 50%;  */
+    /* Remove the background-color or set it to transparent */
+    /* background-color: transparent;  */
+    /* object-fit: cover;  */
+    padding: 3px 0px 0px 0px; /* Remove the padding or adjust it as needed */
+  }
+  
+  /* Navbar Links Container */
+  .navbar-links-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Navbar Links (Desktop) */
+  .navbar-links-container a {
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  /* Mobile Menu Icon */
+  .navbar-menu-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-menu-container svg {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  /* Mobile Menu Drawer */
+  .MuiDrawer-paper {
+    width: 250px;
+  }
+  
+  /* Mobile Menu List Items */
+  .MuiListItem-root {
+    padding: 0;
+  }
+  
+  .MuiListItemButton-root {
+    display: flex;
+    align-items: center;
+  }
+  
+  .MuiListItemIcon-root {
+    min-width: 40px;
+  }
+  
+  .MuiListItemText-root {
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  /* End of Navbar CSS */
+  
+  /* Other CSS Styles for Home, About, and other components can be added here */
+  
